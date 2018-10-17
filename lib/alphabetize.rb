@@ -1,4 +1,4 @@
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by { |phrase| phrase}
+  arr.sort_by { |phrase| alphabet}
 end
